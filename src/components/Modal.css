@@ -1,0 +1,40 @@
+/* Exemplo, outra forma de estilização */
+
+.container_background {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(23, 25, 24);
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: none; */
+}
+
+.container_modal {
+    width: 40vw;
+    height: 40vh;
+    background-color: rgb(204, 201, 201);
+}
+
+.container_top_modal {
+    padding-right: 20px;
+    color: #000000;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close_modal {
+    cursor: pointer;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    gap: 20px;
+    padding-top: 30px;
+    font-size: 26px;
+    font-family: "Times New Roman", Times, serif;
+}
